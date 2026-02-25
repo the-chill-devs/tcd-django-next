@@ -1,8 +1,6 @@
 
 # tcd-django-next
 
-## Overview
-
 `tcd-django-next` is a full-stack template combining **Next.js** for the frontend and **Django** for the backend, designed for modern web applications requiring a robust API and dynamic user interface.
 
 ## Tech Stack
@@ -10,17 +8,17 @@
 - **Frontend**: Next.js (React framework)
 - **Backend**: Django (Python web framework)
 - **Database**: PostgreSQL (default) or SQLite (lightweight alternative)
-- **API Communication**: REST/GraphQL
+- **API Communication**: REST
 
 ## Project Structure
 
 ```
 tcd-django-next/
-├── frontend/              # Next.js application
+├── app_frontend/              # Next.js application
 │   ├── pages/
 │   ├── components/
 │   └── package.json
-├── backend/               # Django application
+├── app_backend/               # Django application
 │   ├── manage.py
 │   ├── settings.py
 │   ├── apps/
