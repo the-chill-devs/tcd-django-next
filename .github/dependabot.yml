@@ -1,0 +1,27 @@
+version: 2
+updates:
+  - package-ecosystem: pip
+    directory: /app_backend
+    schedule:
+      interval: monthly
+    labels:
+      - dependencies
+      - python
+    open-pull-requests-limit: 5
+    groups:
+          all-dependencies:
+            patterns:
+              - "*"
+
+  - package-ecosystem: npm
+    directory: /app_frontend
+    schedule:
+      interval: monthly
+    labels:
+      - dependencies
+      - javascript
+    open-pull-requests-limit: 5
+    groups:
+          all-dependencies:
+            patterns:
+              - "*"
