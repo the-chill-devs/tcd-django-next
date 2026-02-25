@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from django.http import JsonResponse
 
-# Create your views here.
+def testrun_view(request):
+    data = {
+        "message": "This is the testrun view."
+    }
+    return JsonResponse(data)
