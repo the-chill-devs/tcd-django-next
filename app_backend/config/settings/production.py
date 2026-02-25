@@ -1,8 +1,9 @@
 from .base import *
 from decouple import config
 
-DEBUG=False
+DEBUG = False
 ALLOWED_HOSTS = config("ALLOWED_HOSTS", default="").split(",")
+CORS_ALLOWED_ORIGINS = config("CORS_ALLOWED_ORIGINS", default="").split(",")
 
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases

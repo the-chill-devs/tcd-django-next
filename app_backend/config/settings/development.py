@@ -3,6 +3,9 @@ from decouple import config
 
 DEBUG = True
 ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',
+]
 
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
