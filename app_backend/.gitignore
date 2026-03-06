@@ -24,3 +24,6 @@ __pycache__/
 # IDE files
 .idea/
 .vscode/
+
+# Ruff
+.ruff_cache/

@@ -1,6 +1,6 @@
-import pytest
 from django.test import TestCase, Client
 from django.http import JsonResponse
+
 
 class TestJsonResponse(TestCase):
     """Test suite for JSON response functionality."""
